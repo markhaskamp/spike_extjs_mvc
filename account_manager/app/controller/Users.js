@@ -23,7 +23,13 @@ Ext.define('AM.controller.Users', {
     },
 
     updateUser:function(button) {
-      console.log('clicked the Save button');
+      var win = button.up('window'),
+          form = win.down('form'),
+          record = form.getRecord(),
+          values = form.getValues();
+
+      record.set(values);
+      win.close();
     }
 
 });
