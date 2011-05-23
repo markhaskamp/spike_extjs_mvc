@@ -1,9 +1,11 @@
 Ext.define('AM.controller.Users', {
     extend: 'Ext.app.Controller',
 
-    views: [ 'user.List',
-             'user.Edit'
-    ],
+    stores: [ 'Users' ],
+    models: ['User'],
+    views:  [ 'user.List',
+              'user.Edit'
+            ],
     init: function() {
             
         this.control({
