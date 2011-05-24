@@ -1,0 +1,23 @@
+
+* mvc2/
+** account_manager/
+*** app/
+**** controller/
+***** Users.js
+**** model/
+***** User.js
+**** store/
+***** Users.js
+**** view/
+***** user/
+****** Edit.js
+****** List.js
+*** data/
+*** ext-4/
+**** resources/
+***** css/
+****** ext-all.css
+**** ext-all.js
+**** ext-debug.js
+** app.js
+** index.html
